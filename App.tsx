@@ -34,16 +34,19 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   caixaRed: {
+    flex: 1,
     height: 100,
     width: 100,
     backgroundColor: 'red'
   },
   caixaBlue: {
+    flex: 1,
     height: 100,
     width: 100,
     backgroundColor: 'blue'
   },
   caixaGreen: {
+    flex: 1,
     height: 100,
     width: 100,
     backgroundColor: 'green'
