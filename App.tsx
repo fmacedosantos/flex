@@ -41,13 +41,14 @@ const styles = StyleSheet.create({
     height: 300,
     width: 100,
     backgroundColor: 'red',
-    flexBasis: 200 // aumenta o elemento em relação ao flexDirection
+    flexBasis: 200, // aumenta o elemento em relação ao flexDirection
   },
   caixaBlue: {
     height: 300,
     width: 100,
     backgroundColor: 'blue',
     //alignSelf: 'flex-start' // msm coisa q o alignItems, mas pertencente aos filhos
+    flexShrink:1 // faz a msm coisa q o flexGrow, mas no sentido de diminuir o elemento
   },
   caixaGreen: {
     height: 300,
