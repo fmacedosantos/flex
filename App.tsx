@@ -26,7 +26,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1, // faz com q o container ocupe a tela toda
     flexDirection: 'row', // relacionado ao pai (container)
     justifyContent: 'space-around', // justifica as tags em rel. ao flexDirection
     borderWidth: 3,
