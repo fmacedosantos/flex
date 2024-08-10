@@ -31,6 +31,8 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start', // justifica as tags em rel. ao flexDirection (eixo primário)
     alignItems: 'flex-start', // rel. ao eixo secundário
     flexWrap: 'wrap', // caso o elemento vá sair da tela, ele pula uma coluna/linha (eixo 1°)
+    alignContent: 'flex-end', /* funciona em conjunto com o wrap. determina como os elementos, 
+    ao se quebrar, vão se comportar (eixo secundário)*/
     borderWidth: 3,
     borderColor: 'purple',
     backgroundColor: '#fff',
