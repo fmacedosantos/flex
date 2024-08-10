@@ -37,12 +37,14 @@ const styles = StyleSheet.create({
   caixaRed: {
     height: 100,
     width: 100,
-    backgroundColor: 'red'
+    backgroundColor: 'red',
+    alignSelf: 'flex-end'
   },
   caixaBlue: {
     height: 100,
     width: 100,
-    backgroundColor: 'blue'
+    backgroundColor: 'blue',
+    alignSelf: 'flex-start' // msm coisa q o alignItems, mas pertencente aos filhos
   },
   caixaGreen: {
     height: 100,
