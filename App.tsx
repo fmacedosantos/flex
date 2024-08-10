@@ -28,11 +28,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row', // relacionado ao pai (container)
+    justifyContent: 'space-around', // justifica as tags em rel. ao flexDirection
     borderWidth: 3,
     borderColor: 'purple',
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
   },
   caixaRed: {
     height: 100,
