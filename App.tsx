@@ -26,11 +26,11 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, // Ocupa toda a tela
-    flexDirection: 'row', // Disposição horizontal (para exemplificar)
-    justifyContent: 'space-between', // Distribui os elementos igualmente com espaço entre eles
-    alignItems: 'center', // Centraliza os elementos verticalmente
-    flexWrap: 'wrap', // Quebra os elementos para a próxima linha se necessário
+    flex: 1, // ocupa toda a tela
+    flexDirection: 'row', // disposição horizontal (para exemplificar)
+    justifyContent: 'space-between', // distribui os elementos igualmente com espaço entre eles
+    alignItems: 'center', // centraliza os elementos verticalmente
+    flexWrap: 'wrap', // quebra os elementos para a próxima linha se necessário
     alignContent: 'flex-end', /* funciona em conjunto com o wrap. determina como os elementos, 
     ao se quebrar, vão se comportar (eixo secundário)*/
     borderWidth: 3,
@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
   caixaGreen: {
     height: 300,
     width: 100,
-    backgroundColor: 'green'
+    backgroundColor: 'green',
+    flexGrow: 1, // parecido com a propriedade flex, porém para o filho
   },
 });
