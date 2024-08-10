@@ -26,11 +26,11 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, // faz com q o container ocupe a tela toda
-    flexDirection: 'column', // relacionado ao pai (container)
-    justifyContent: 'flex-start', // justifica as tags em rel. ao flexDirection (eixo primário)
-    alignItems: 'flex-start', // rel. ao eixo secundário
-    flexWrap: 'wrap', // caso o elemento vá sair da tela, ele pula uma coluna/linha (eixo 1°)
+    flex: 1, // Ocupa toda a tela
+    flexDirection: 'row', // Disposição horizontal (para exemplificar)
+    justifyContent: 'space-between', // Distribui os elementos igualmente com espaço entre eles
+    alignItems: 'center', // Centraliza os elementos verticalmente
+    flexWrap: 'wrap', // Quebra os elementos para a próxima linha se necessário
     alignContent: 'flex-end', /* funciona em conjunto com o wrap. determina como os elementos, 
     ao se quebrar, vão se comportar (eixo secundário)*/
     borderWidth: 3,
