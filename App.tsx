@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     height: 300,
     width: 100,
     backgroundColor: 'red',
+    flexBasis: 200 // aumenta o elemento em relação ao flexDirection
   },
   caixaBlue: {
     height: 300,
