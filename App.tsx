@@ -27,27 +27,27 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1, // faz com q o container ocupe a tela toda
-    flexDirection: 'row', // relacionado ao pai (container)
-    justifyContent: 'space-around', // justifica as tags em rel. ao flexDirection (eixo primário)
-    alignItems: 'center', // rel. ao eixo secundário
+    flexDirection: 'column', // relacionado ao pai (container)
+    justifyContent: 'flex-start', // justifica as tags em rel. ao flexDirection (eixo primário)
+    alignItems: 'flex-start', // rel. ao eixo secundário
+    flexWrap: 'wrap', // caso o elemento vá sair da tela, ele pula uma coluna/linha (eixo 1°)
     borderWidth: 3,
     borderColor: 'purple',
     backgroundColor: '#fff',
   },
   caixaRed: {
-    height: 100,
+    height: 300,
     width: 100,
     backgroundColor: 'red',
-    alignSelf: 'flex-end'
   },
   caixaBlue: {
-    height: 100,
+    height: 300,
     width: 100,
     backgroundColor: 'blue',
-    alignSelf: 'flex-start' // msm coisa q o alignItems, mas pertencente aos filhos
+    //alignSelf: 'flex-start' // msm coisa q o alignItems, mas pertencente aos filhos
   },
   caixaGreen: {
-    height: 100,
+    height: 300,
     width: 100,
     backgroundColor: 'green'
   },
