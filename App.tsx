@@ -27,6 +27,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'row', // relacionado ao pai (container)
     borderWidth: 3,
     borderColor: 'purple',
     backgroundColor: '#fff',
@@ -34,19 +35,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   caixaRed: {
-    flex: 1,
     height: 100,
     width: 100,
     backgroundColor: 'red'
   },
   caixaBlue: {
-    flex: 1,
     height: 100,
     width: 100,
     backgroundColor: 'blue'
   },
   caixaGreen: {
-    flex: 1,
     height: 100,
     width: 100,
     backgroundColor: 'green'
